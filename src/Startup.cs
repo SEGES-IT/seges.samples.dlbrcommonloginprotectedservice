@@ -29,7 +29,7 @@ namespace LdkServiceSample
                     // To allow Landmand.dk to call the service, it must whitelist the landmand.dk domains with CORS
                     // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
                     // Including, but not limited to, handling the required OPTIONS requests, and allowing usage of the Authorization Header
-                    // This is typically
+                    // CORS support is non-trivial and is typically performed using a generic library / framework / middleware
 
                     /*
                      * Extract Authorization header
